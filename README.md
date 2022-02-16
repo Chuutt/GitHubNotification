@@ -5,7 +5,7 @@
 
 Click below, Fill up the required fields and then hit **Deploy App** button.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnonymousBoy1025/GitGram)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CrePavan/GitHubNotification)
 
 
 # Setup:
@@ -17,7 +17,7 @@ Click below, Fill up the required fields and then hit **Deploy App** button.
 
 ## Deploy on GitPod 🚀:
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/AnonymousBoy1025/GitGram)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/CrePavan/GitHubNotification)
 
 
 ## Try on Gitpod:
