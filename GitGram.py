@@ -70,12 +70,10 @@ def owner(_bot, update):
 
 start_handler = CommandHandler("start", start)
 help_handler = CommandHandler("help", help)
-sourcecode = CommandHandler("source", source)
 owner = CommandHandler("owner", owner)
 
 dispatcher.add_handler(start_handler)
 dispatcher.add_handler(help_handler)
-dispatcher.add_handler(sourcecode)
 dispatcher.add_handler(owner)
 updater.start_polling()
 
