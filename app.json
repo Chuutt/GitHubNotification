@@ -1,0 +1,30 @@
+{
+    "name": "GitInfo",
+    "description": "GitHub and GitLab Integration for Telegram Bot API",
+    "logo": "https://telegra.ph/file/79c943bb38f121b9f3243.png",
+    "keywords": [
+        "telegram",
+        "github"
+    ],
+    "repository": "https://github.com/CrePavan/GitHubNotification",
+    "website": "https://github.com/CrePavan/GitHubNotification",
+    "success_url": "https://telegram.me/CreatorPavanChat",
+    "env": {
+        "ENV": {
+            "description": "Fill this if you using environ variable as config.",
+            "value": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Get Bot API Token from @BotFather",
+            "value": ""
+        },
+        "PROJECT_NAME": {
+            "description": "Project of what you desire",
+            "value": ""
+        },
+        "APP_URL": {
+            "description": "Heroku app url, example: https://appname.herokuapp.com/",
+            "value": ""
+        }
+    }
+  }
