@@ -31,14 +31,14 @@ else:
 updater = Updater(token=BOT_TOKEN, workers=1)
 dispatcher = updater.dispatcher
 
-print("If you need more help, join @TeslaRobo_Chat in Telegram.")
+print("If you need more help, join @CreatorPavanChat in Telegram.")
 
 
 def start(_bot, update):
     """/start message for bot"""
     message = update.effective_message
     message.reply_text(
-        f"This is the Updates watcher for {PROJECT_NAME}. I am just notify users about what's happen on their Git repositories thru webhooks.\n\nYou need to [self-host](https://github.com/madboy482/GitInfo) or see /help to use this bot on your groups.",
+        f"I can't do anything 🤧",
         parse_mode="markdown")
 
 
@@ -46,27 +46,10 @@ def help(_bot, update):
     """/help message for the bot"""
     message = update.effective_message
     message.reply_text(
-        f"*Available Commands*\n\n`/connect` - Setup how to connect this chat to receive Git activity notifications.\n`/support` - Get links to get support if you're stuck.\n`/source` - Get the Git repository URL.\n`/owner` - Get to the Owner.",
+        f"Hey noobz I already said i can't do anything for you 😂🤣",
         parse_mode="markdown"
     )
 
-
-def support(_bot, update):
-    """Links to Support"""
-    message = update.effective_message
-    message.reply_text(
-        f"*Getting Support*\n\nTo get support in using the bot, Join [The TeslaRobo Support](https://t.me/TeslaRobo_Chat).",
-        parse_mode="markdown"
-    )
-
-
-def source(_bot, update):
-    """Link to Source"""
-    message = update.effective_message
-    message.reply_text(
-        f"*Source*:\n[GitInfo Repo](https://bit.ly/2WsxnSW/).",
-        parse_mode="markdown"
-    )
 
 
 def getSourceCodeLink(_bot, update):
@@ -81,7 +64,7 @@ def owner(_bot, update):
     """Get to Owner."""
     message = update.effective_message
     message.reply_text(
-        f"*Owner*:\n[Moi Owner](https://t.me/Warning_MadBoy_is_Back).",
+        f"*Owner*:\n[Moi Owner 😸❤️](https://t.me/Creator_Pavan).",
         parse_mode="markdown"
     )
 
