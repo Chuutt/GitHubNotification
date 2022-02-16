@@ -1,4 +1,4 @@
-# GitGram - Github Integration for Telegram Bot API
+# GitGram - Github Integration for Telegram Bot API Project
 
 
 ## Deploy on Heroku 🚀:
