@@ -1,5 +1,5 @@
 # Your Bot token in the quotes taken from @BotFather on Telegram
-BOT_TOKEN = "5085381545:AAHzAlhunwwb5f7Mr5WCcSkvs7hA7wUE5cw"
+BOT_TOKEN = "5187416490:AAFU7I1ImaeM_Os1TREL8QgWADc_ZzLbKms"
 
 # Project Name of your Project
 PROJECT_NAME = "GitHubNotification"
